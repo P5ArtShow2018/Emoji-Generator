@@ -34,3 +34,7 @@ function draw() {
   drawEmoji();
   drawEmoji();
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth,windowHeight);
+}
